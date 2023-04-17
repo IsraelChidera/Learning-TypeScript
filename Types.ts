@@ -10,7 +10,7 @@ let number:number = 10;
 
 //4. Regex
 let myRegEx:RegExp = /foo/;
-
+ 
 //5. Array
 //two ways. either the defined way or the generic way
 const names:string[] = username.split("");
