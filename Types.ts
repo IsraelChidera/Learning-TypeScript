@@ -17,9 +17,16 @@ const names:string[] = username.split("");
 const values:Array<number> = [1,2,3];
 
 //6. Interface
+//here the interface is defining a field
 interface Car {
     Model : string,
     Color : string
+}
+
+//here the interface is defining a method
+interface CarFn{
+    topSpeed(speed:number):number;
+    printDetails(name:string):void;
 }
 
 const myCar:Car = {
