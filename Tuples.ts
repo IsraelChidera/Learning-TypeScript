@@ -22,3 +22,5 @@ console.log(str1getter());
 str2setter("Goodbye");
 console.log(str1getter());
 
+const ourTuple:[xd: number, yd: string] = [2,"3"];
+console.log();

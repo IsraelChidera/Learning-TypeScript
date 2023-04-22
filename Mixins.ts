@@ -10,4 +10,16 @@ logger("Israel Chidera");
 
 //function creating a class
 //also know as the function factory in TypeScript
-//function ffloger 
+function fflogerfn(){
+    return class ffloggerclass{
+        private strs: string = "";
+
+        completeLog(str:string):string{
+            return `Start: ${this.strs} ${str}`;
+        }
+    }
+}
+
+const res = fflogerfn();
+const log = new res();
+console.log(log.completeLog("Foo"));
